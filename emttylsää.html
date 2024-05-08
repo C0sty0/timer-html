@@ -1,0 +1,80 @@
+<html>
+
+<title>älä koske
+</title>
+<h1>älä koske</h1>
+<h2>I</h2>
+<h3>I</h3>
+<h4>V</h4>    
+<head>
+
+<a href="https://shattereddisk.github.io/rickroll/rickroll.mp4">
+<button>älä koske bro</button>    
+
+  <label id="minutes">00</label>
+<label id="colon">:</label>
+<label id="seconds">00</label>
+    <script type="text/javascript">
+        var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+        var totalSeconds = 0;
+        setInterval(setTime, 1000);
+
+        function setTime()
+        {
+            ++totalSeconds;
+            secondsLabel.innerHTML = pad(totalSeconds%60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
+        }
+
+        function pad(val)
+        {
+            var valString = val + "";
+            if(valString.length < 2)
+            {
+                return "0" + valString;
+            }
+            else
+            {
+                return valString;
+            }
+        }
+    </script>  
+    
+</a> 
+    
+      
+</head>        
+           
+            
+        
+
+
+
+
+
+ 
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+    
+
+
+</html>
